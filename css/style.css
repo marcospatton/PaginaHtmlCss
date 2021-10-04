@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    color: #1e1e2a;
+}
+
+/* header */
+
+.header-container{
+    height: vh;
+    width: vw;
+    background-color: #60e1e0;
+    background-image: url("../img/marco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+   
+    display: flex;
+    flex-direction: :column;
+    justify-content: center;
+    aling-items:flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
+
+}
+
+h1{
+    text-transform: uppercases;
+    letter-spacing: 4px;
+
+}
